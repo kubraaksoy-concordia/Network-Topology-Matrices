@@ -8,14 +8,13 @@ It can be used for analyzing network systems represented by directed graphs usin
 
 The order for running the files:
 
-Matrix_Vector_Auixilary.thy
-Network_Incidence_System.thy
-Incidence_Matrix.thy
-Application_Incidence.thy
-Network_Loop_System.thy
-Loop_Matrix.thy
-Application_Loop.thy
-Network_Cutset_System.thy
-Cutset_Matrix.thy
-Application_Cutset.thy
-Compatible Isabelle/HOL version: Isabelle2022 (and 2021)
+- Matrix_Vector_Auixilary.thy 
+- Network_Incidence_System.thy
+- Incidence_Matrix.thy
+- Network_Loop_System.thy
+- Loop_Matrix.thy
+- Network_Cutset_System.thy
+- Cutset_Matrix.thy
+- KCL_KVL_Network.thy
+
+Compatible Isabelle/HOL version: Isabelle2021 and later versions
