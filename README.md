@@ -13,8 +13,9 @@ The order for running the files:
 - Incidence_Matrix.thy
 - Network_Loop_System.thy
 - Loop_Matrix.thy
+- KCL_KVL_Network.thy
 - Network_Cutset_System.thy
 - Cutset_Matrix.thy
-- KCL_KVL_Network.thy
+
 
 Compatible Isabelle/HOL version: Isabelle2021 and later versions
