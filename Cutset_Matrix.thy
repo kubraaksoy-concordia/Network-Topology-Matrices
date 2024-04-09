@@ -373,7 +373,7 @@ lemma B_matrix_edge_notin_cutset: "i < z \<Longrightarrow> j < n \<Longrightarro
 
 lemma B_matrix_edge_in_poscutset_iff: "i < z \<Longrightarrow> j < n \<Longrightarrow> (\<C>s!i) = (cutset_edges (N!i)) \<Longrightarrow>
 B $$ (i, j) = 1 \<longleftrightarrow> (\<E>s ! j) \<in> set (\<C>s ! i) \<and>  (\<E>s ! j) \<in> set (pos_cut_list (N!i))"
-  using B_matrix_edge_in_poscutset cutset_matrix_edge_in_cspos_one_alt oops
+  using B_matrix_edge_in_poscutset cutset_matrix_edge_in_cspos_one_alt by blast
 
 lemma B_matrix_edge_in_negcutset_iff: "i < z \<Longrightarrow> j < n \<Longrightarrow> (\<C>s!i) = (cutset_edges (N!i))  \<Longrightarrow> B $$ (i, j) = -1 \<longleftrightarrow> (\<E>s ! j) \<in> set (\<C>s ! i) \<and> (\<E>s ! j) \<in> set (neg_cut_list (N!i))"
   using B_matrix_edge_in_negcutset
